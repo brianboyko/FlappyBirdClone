@@ -3,10 +3,9 @@ package com.brianboyko.flappy.game;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.brianboyko.flappy.game.States.GameStateManager;
-import com.brianboyko.flappy.game.States.MenuState;
+import com.brianboyko.flappy.game.states.GameStateManager;
+import com.brianboyko.flappy.game.states.MenuState;
 
 public class FlappyDemo extends ApplicationAdapter {
 	public static final int WIDTH = 480;
